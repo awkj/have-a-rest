@@ -1,0 +1,35 @@
+body {
+  /* background-color: #D6D8D9; */
+}
+
+.timer-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.timer {
+  font-family: "Montserrat";
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.control{
+  display: flex;
+  flex-direction: row;
+  margin-top: 10%;
+  justify-content:space-evenly;
+  width: 100%;
+}
+.step{
+  margin: 100px 20px 20px;
+}
+
+.text {
+  color: #aaa;
+}
+
+.value {
+  font-size: 40px;
+}

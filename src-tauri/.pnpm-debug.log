@@ -1,0 +1,15 @@
+{
+  "0 info pnpm:global": "Nothing to stop. No server is running for the store at /Users/doctor/.pnpm-store/v3",
+  "1 debug pnpm:scope": {
+    "selected": 1
+  },
+  "2 error pnpm": {
+    "code": "ERR_PNPM_REGISTRIES_MISMATCH",
+    "err": {
+      "name": "pnpm",
+      "message": "This modules directory was created using the following registries configuration: {\"default\":\"https://registry.npmmirror.com/\"}. The current configuration is {\"default\":\"https://mirrors.cloud.tencent.com/npm/\"}. To recreate the modules directory using the new settings, run \"pnpm install\".",
+      "code": "ERR_PNPM_REGISTRIES_MISMATCH",
+      "stack": "pnpm: This modules directory was created using the following registries configuration: {\"default\":\"https://registry.npmmirror.com/\"}. The current configuration is {\"default\":\"https://mirrors.cloud.tencent.com/npm/\"}. To recreate the modules directory using the new settings, run \"pnpm install\".\n    at validateModules (/usr/local/lib/node_modules/pnpm/dist/pnpm.cjs:92010:15)\n    at async getContext (/usr/local/lib/node_modules/pnpm/dist/pnpm.cjs:91882:28)\n    at async mutateModules (/usr/local/lib/node_modules/pnpm/dist/pnpm.cjs:119552:19)\n    at async handler (/usr/local/lib/node_modules/pnpm/dist/pnpm.cjs:121852:33)\n    at async /usr/local/lib/node_modules/pnpm/dist/pnpm.cjs:182043:21\n    at async run (/usr/local/lib/node_modules/pnpm/dist/pnpm.cjs:182017:34)\n    at async runPnpm (/usr/local/lib/node_modules/pnpm/dist/pnpm.cjs:182236:5)\n    at async /usr/local/lib/node_modules/pnpm/dist/pnpm.cjs:182228:7"
+    }
+  }
+}

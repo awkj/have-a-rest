@@ -1,0 +1,25 @@
+{
+  "name": "tauri-app",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "tauri": "tauri"
+  },
+  "dependencies": {
+    "@geist-ui/core": "^2.3.0",
+    "@tauri-apps/api": "^1.0.0-beta.8",
+    "react": "^17.0.2",
+    "react-countdown-circle-timer": "^3.0.8",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "@tauri-apps/cli": "^1.0.0-beta.10",
+    "@types/react": "^17.0.39",
+    "@types/react-dom": "^17.0.11",
+    "@vitejs/plugin-react": "^1.1.4",
+    "typescript": "^4.5.5",
+    "vite": "^2.7.13"
+  }
+}
