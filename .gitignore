@@ -5,3 +5,4 @@ dist-ssr
 *.local
 src-tauri/target
 .pnpm-debug.log
+pnpm-lock.yaml
